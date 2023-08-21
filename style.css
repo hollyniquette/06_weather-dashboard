@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  margin: 20px;
+}
+
+header {
+  text-align: center;
+  background-color: gainsboro;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+aside,
+main {
+  margin-top: 10px;
+}
+
+#sidebar {
+  width: 20%;
+  max-width: 20%;
+  float: left;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  height: calc(100vh - 100px);
+}
+
+#city-input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#city-button {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background-color: palevioletred;
+}
+
+#city-history {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background-color: #e6e6e6;
+  height: calc(100vh - 300px);
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.history-button {
+  margin: 8px 0;
+  padding: 10px;
+}
+
+#current-header {
+  display: flex;
+  padding: 10px;
+}
+
+#current-container {
+  display: flex;
+  padding: 10px;
+  background-color: gainsboro;
+}
+
+#current-city-date {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.current-item {
+  padding: 10px;
+  box-sizing: border-box; /* Include padding and border in total width */
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  flex-grow: 1;
+}
+
+.current-detail {
+  padding: 20px;
+}
+
+#forecast-container,
+#forecast-header {
+  height: calc(66.66% - 10px); /* 2/3 of the height minus padding */
+  display: flex;
+  padding: 10px;
+  flex-direction: row; /* Stack the forecast boxes vertically */
+  justify-content: space-between;
+}
+
+.forecast-card {
+  flex-grow: 1; /* Allows the boxes to take up equal space */
+  background-color: gainsboro; /* or any color you prefer */
+  padding: 10px;
+  margin: 5px 10px; /* Adds some space between the boxes */
+  box-sizing: border-box;
+}
