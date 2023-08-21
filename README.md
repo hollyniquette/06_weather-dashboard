@@ -15,7 +15,7 @@ This application is a dashboard for users to view the weather outlook for any ci
 
 ## Installation and Usage
 
-Visit the deployed application to check the weather outlook for any city [here]().
+Visit the deployed application to check the weather outlook for any city [here](https://hollyniquette.github.io/06_weather-dashboard/).
 
 ## Guidelines for Contribution
 
